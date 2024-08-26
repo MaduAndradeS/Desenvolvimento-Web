@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab02</title>
+</head>
+<body>
+    <h1>Deuses Olimpianos </h1>
+    <h4>Informações sobre todos os 12 olimpianos.</h4>
+    <h5>Na verdade existem duas divisões mais famosas entre os deuses, os olimpianos e os 6 irmãos.</h5>
+     <p>Os 6 irmãos são Poseidon, Zeus, Hades, Hera, Demeter e Hestia que nasceram da união de Cronos e Reia e derrotaram os titãs.
+     Ja os 12 olimpianos são Artemis, Apolo, Atena, Poseidon, Zeus, Hera, Demeter, Hermes, Dionisio, Afrodite, Ares e Hefesto.</p>
+     <p> Essa diferença acontece pois Hades por viver no submundo e cuidar dos mortos não recebeu o direito a uma cadeira no olimpo 
+     e Hestia cedeu a sua para Dionisio para evitar discussões entre os deuses.</p>
+     <h3>Deusas Mulheres:</h3>
+     <ul> <li>Demeter - Agricultura</li>
+          <li>Hera - Casamento/Rainha do Olimpo</li>
+          <li>Afrodite - Amor/Beleza </li>
+          <li>Artemis - Caça/Lua </li>
+          <li>Atena - Guerra/Sabedoria</li>
+          <li>Hestia - Familia </li>
+     </ul>
+     <h3>Deuses Homens:</h3>
+     <ol> 
+        <li>Zeus - Raios/Rei do Olimpo</li>
+        <li>Poseidon - Mares/Terremotos</li>
+        <li>Hades - Submundo</li>
+        <li>Apolo - Medicina/Sol </li>
+        <li>Ares - Guerra</li>
+        <li>Hermes - Mensageiro/Ladrões </li>
+        <li>Dionisio - Vinhos/Teatro</li>
+        <li>Hefesto - Forjas/Ferreiro</li>
+    </ol>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jM6sT6iL9S4?si=epbOUZgMevTmlEXN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div><h2>Formulário para Duvidas</h2>
+    <form action="/enviar_formulario" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form> </div>
+
+    <div class="container">
+        <label for="deuses">Escolha um deus favorito:</label>
+        <select id="deuses" name="deuses">
+            <option value="Poseidon">Poseidon</option>
+            <option value="Atena">Atena</option>
+            <option value="Hades">Hades</option>
+        </select>
+    </div>
+    
+    <div class="container">
+        <h2>Gráfico em Canvas</h2>
+        <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <script>
+            var c = document.getElementById("meuCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#000000";
+            ctx.fillRect(20, 20, 150, 75);
+        </script>
+    </div>
+
+    <audio controls>
+        <source src="nightfall-future-bass-music-228100.mp3" type="audio/mpeg">
+        </audio>
+        <footer>Obrigado pelo seu acesso.<div>
+        Nos siga em todas as redes @olimpianos
+        </div></footer>
+
+</body>
+</html>
